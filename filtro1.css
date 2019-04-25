@@ -1,3 +1,46 @@
 body {
-  background-color: grey;
+  background-image: url("wallpaper.png");
+  background-attachment: fixed;
+}
+canvas {
+  padding: 0px 0px;
+  border:  5px solid;
+  border-top-color: red;
+  border-left-color: gray;
+  border-right-color: gray;
+  border-bottom-color: blue;
+  border-radius: 20px;
+  margin-left: 230px;
+}
+img {
+  padding: 0px 0px;
+  border:  5px solid;
+  border-top-color: red;
+  border-left-color: gray;
+  border-right-color: gray;
+  border-bottom-color: blue;
+  border-radius: 20px;
+}
+
+p {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 0px 0px;
+  border:  5px ridge;
+  border-top-color: red;
+  border-left-color: gray;
+  border-right-color: gray;
+  border-bottom-color: blue;
+  border-radius: 20px;
+  margin-left: 650px;
+  margin-right: 650px;
+}
+
+#boton_colores {
+  margin-left: 600px;
+}
+
+input  {
+  margin-left: 650px;
 }
