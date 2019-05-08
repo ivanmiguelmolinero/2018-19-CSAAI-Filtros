@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filtro Iván Miguel Molinero</title>
+    <link rel="stylesheet" href="filtro1simulacro.css">
+    <script src="filtro1simulacro.js"></script>
+  </head>
+  <body onload="main();">
+    <canvas id="display"></canvas>
+    <img src="black-hole.jpg" id="imagesrc">
+    <br>
+    <button type="button" name="button" id="boton_colores">Filtro de colores: ON</button>
+    <button type="button" name="button" id="boton_grises">Filtro blanco y negro: OFF</button>
+    <button type="button" name="button" id="doble">DOBLE</button>
+    <p id="rojo">Establece el umbral de rojo:</p>
+    <input type="range" id="deslizadorred" min="0" max="255" value="255"/>
+    <p id="range_value_red">00</p>
+    <p id="verde">Establece el umbral de verde:</p>
+    <input type="range" id="deslizadorgreen" min="0" max="255" value="255"/>
+    <p id="range_value_green">00</p>
+    <p id="azul">Establece el umbral de azul:</p>
+    <input type="range" id="deslizadorblue" min="0" max="255" value="255"/>
+    <p id="range_value_blue">00</p>
+  </body>
+</html>
